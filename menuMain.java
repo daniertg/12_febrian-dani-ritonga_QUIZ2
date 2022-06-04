@@ -1,4 +1,4 @@
-public class node_12 {
+public class menuMain {
     static String pilih,pilih2;
     static boolean succes = true;
 
