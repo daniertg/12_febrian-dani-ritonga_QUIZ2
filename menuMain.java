@@ -23,10 +23,10 @@ public class menuMain {
         Scanner sc = new Scanner(System.in);
         int nomorAntrian = 0;
         int pilih;
-        String[] nama = {"aren", "aran", "irin", "oron"};
-        String[] nohp  = {"081111111", "08222222", "08333333", "084444"};
-        int[] kodePesanan = {1,2,3,4};
-        String[] namaPesanan = {"bakso", "mie ", "Nasi goreng", "burger"};
+        String[] nama = {"aren", "aran", "irin", "oron","eren"};
+        String[] nohp  = {"081111111", "08222222", "08333333", "084444","08555555"};
+        int[] kodePesan = {1,2,3,4};
+        String[] namaPesan = {"bakso", "mie ", "Nasi goreng", "burger"};
         int[] harga = {15000, 25000, 10000, 15000};
         
        public static void main(String[] args) {
