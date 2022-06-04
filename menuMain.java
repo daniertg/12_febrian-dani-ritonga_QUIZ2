@@ -32,8 +32,8 @@ public class node_12 {
        public static void main(String[] args) {
                
                 if (pilih2.equals("1")) {
-                     Pembeli pem = new Pembeli(nama[nomorAntrian], nohp[nomorAntrian], kodePesanan[nomorAntrian]);
-                    Pesanan pes = new Pesanan(kodePesanan[nomorAntrian], harga[nomorAntrian], namaPesanan[nomorAntrian]);
+                     Pembeli pem = new Pembeli(nama[nomorAntrian], notlpn[nomorAntrian], kodePesan[nomorAntrian]);
+                    Pesan pes = new Pesan(kodePesan[nomorAntrian], harga[nomorAntrian], namaPesan[nomorAntrian]);
                     dll.addLast(pem, pes);
                     System.out.println("Nomor Antrian : " + nomorAntrian+1);
                     System.out.println("Nama Customer : " + nama[nomorAntrian]);
