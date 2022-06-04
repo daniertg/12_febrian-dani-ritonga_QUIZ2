@@ -19,7 +19,7 @@ public class node_12 {
               
               
              public static void main(String[] args) throws Exception {
-        DoubleLinkedLists dll = new DoubleLinkedLists();
+        DoubleLinkedLists mm2 = new DoubleLinkedLists();
         Scanner sc = new Scanner(System.in);
         int nomorAntrian = 0;
         int pilih;
@@ -34,7 +34,7 @@ public class node_12 {
                 if (pilih2.equals("1")) {
                      Pembeli pem = new Pembeli(nama[nomorAntrian], notlpn[nomorAntrian], kodePesan[nomorAntrian]);
                     Pesan pes = new Pesan(kodePesan[nomorAntrian], harga[nomorAntrian], namaPesan[nomorAntrian]);
-                    dll.addLast(pem, pes);
+                    mm2.addLast(pem, pes);
                     System.out.println("Nomor Antrian : " + nomorAntrian+1);
                     System.out.println("Nama Customer : " + nama[nomorAntrian]);
                     System.out.println("Nomor Hp : " + nohp[nomorAntrian]);
