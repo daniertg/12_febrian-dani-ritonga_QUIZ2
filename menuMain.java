@@ -40,10 +40,12 @@ public class node_12 {
                     System.out.println("Nomor Hp : " + nohp[nomorAntrian]);
                     nomorAntrian++;
                 } else if (pilih2.equals("2")) {
-                    
+                    mm2.print();
                 } else if (pilih2.equals("3")) {
-                    ();
-                } else if (pilih2.equals("x")) {
+                    mm2.removeFirst();
+                 } else if (pilih2.equals("5")) {
+                    mm2.hitungPendapatan();
+                } else if (pilih2.equals("6")) {
                     succes = false;
                 }
             }
