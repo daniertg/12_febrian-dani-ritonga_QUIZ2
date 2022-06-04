@@ -17,12 +17,16 @@ while (succes) {
                 System.out.print("pilih:(1-6)");
                 pilih2 = sc.nextLine();
                 if (pilih2.equals("1")) {
-                    tambahAntrian();
+                    
                 } else if (pilih2.equals("2")) {
-                    ();
+                    
                 } else if (pilih2.equals("3")) {
-                    ();
-                } else if (pilih2.equals("x")) {
+                    deque();
+                } else if (pilih2.equals("4")) {
+                  
+                } else if (pilih2.equals("5")) {
+                  
+                } else if (pilih2.equals("6")) {
                     succes = false;
                 }
             }
