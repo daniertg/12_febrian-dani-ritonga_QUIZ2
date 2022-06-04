@@ -13,7 +13,7 @@ public class DoubleLinkedLists {
 
     public void addFirst(Pembeli pem, Pesan pes){
         if (isEmpty()) {
-            head = new node_12(null, pem, pes, null);
+            head = new Node_12(null, pem, pes, null);
         } else {
             Node_12 newNode = new Node_12(null, pem, pes, head);
             head.prev = newNode;
