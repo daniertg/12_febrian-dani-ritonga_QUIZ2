@@ -37,7 +37,7 @@ public class menuMain {
                     mm2.addLast(pem, pes);
                     System.out.println("Nomor Antrian : " + nomorAntrian+1);
                     System.out.println("Nama Customer : " + nama[nomorAntrian]);
-                    System.out.println("Nomor Hp : " + nohp[nomorAntrian]);
+                    System.out.println("Nomor Hp : " + notlp[nomorAntrian]);
                     nomorAntrian++;
                 } else if (pilih2.equals("2")) {
                     mm2.print();
